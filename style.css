@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: #876ED7;
+}
+
+nav {
+    display: flex;                    //контейнер
+    justify-content: flex-end;        //в кінці осі 
+    border-bottom: 1px dashed navy;    //нижня межа
+}
+
+nav a {
+    text-decoration: none;        //нижня межа
+    font-size: 20px;                //розмір тексту
+    color: royalblue;             //колір
+    margin: 30px;                // зовнішні відступи
+}
+
+.gallery {
+    display: flex;              //контейнер
+    width: 500px;               //ширина
+    flex-wrap: wrap;            //перенесення дозволено, чим менше екран, тим більша висота контейнера і навпаки
+}
+
+.container {
+    display: flex;             //контейнер
+    justify-content: center;    // в центрі осі
+    width:430px;
+    flex-wrap: wrap
+}
+
+.text {
+    width:300px                //ширина
+}
+
+.text .right {
+    text-align: right         //
+}
+
+img {
+    width:430px;
+    height:400px
+}
+
+.text2 {
+    font-size: 5px
+}
